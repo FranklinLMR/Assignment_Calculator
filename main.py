@@ -7,12 +7,6 @@ def suma(a,b):
 def resta(a,b):
     return a-b
 
-def multi(a,b):
-    return a*b
-
-def division(a,b):
-    return a/b
-
 
 print("Hello guy, let's keep this simple")
 arenque.sleep(2)
@@ -39,25 +33,6 @@ match AnswerDecision:
         arenque.sleep(1)
         print(f"Here is the result of the substraction {a} - {b}: {resta(a,b)}") 
 
-    case "3":
-        print("Great")
-        arenque.sleep(1)
-        a= int(input("Give me the first number: "))
-        print("\n\n")
-        b= int(input("Give me the second number: "))
-        print("\n\n")
-        arenque.sleep(1)
-        print(f"Here is the result of the multiplication {a} * {b}: {multi(a,b)}")
-
-    case "4":
-        print("Great")
-        arenque.sleep(1)
-        a= int(input("Give me the first number: "))
-        print("\n\n")
-        b= int(input("Give me the second number: "))
-        print("\n\n")
-        arenque.sleep(1)
-        print(f"Here is the result of the division {a} / {b}: {division(a,b)}") 
 
     case _:
         pass
