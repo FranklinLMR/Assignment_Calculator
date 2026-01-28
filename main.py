@@ -23,8 +23,9 @@ match AnswerDecision:
         a= int(input("Give me the first number: "))
         print("\n\n")
         b= int(input("Give me the second number: "))
-
-        print(f"Here is the result of the sum: {suma(a,b)}")
+        print("\n\n")
+        sleep(1)
+        print(f"Here is the result of the sum {a} + {b}: {suma(a,b)}")
 
     case "2":
         print("Great")
@@ -32,8 +33,9 @@ match AnswerDecision:
         a= int(input("Give me the first number: "))
         print("\n\n")
         b= int(input("Give me the second number: "))
-
-        print(f"Here is the result of the substraction: {resta(a,b)}") 
+        print("\n\n")
+        sleep(1)
+        print(f"Here is the result of the substraction {a} - {b}: {resta(a,b)}") 
 
     case _:
         pass
